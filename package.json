@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "boostrap": "^2.0.0",
+    "browser-sync": "^2.27.7",
     "html-validate": "^6.4.0",
     "node-sass": "^7.0.1"
   }
