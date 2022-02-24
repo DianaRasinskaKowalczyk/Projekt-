@@ -1,7 +1,10 @@
 /* Variables */
 $font-title: 'Signika', sans-serif;
 $font-text: 'Inconsolata', monospace;
-
+$font-logo: 'Berkshire Swash', cursive;
+$color-logo: yellow;
+$color-light: #ffffff;
+$color-dark: black;
 
 
 /* Global */
@@ -16,4 +19,34 @@ body {
     line-height: 1.7;
     font-family: $font-text;
 }
+
+/* Navigation */
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+}
+
+.navigation-logo-box {
+    display: inline-block;
+}  
+
+.navigation-logo {
+    color: $color-logo;
+    font-style: italic;
+    font-size: 20 px;
+    font-family: $font-logo;
+    text-align: center;
+}
+
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+}
+.navigation-list-item {
+    display: inline-block;
+    color: $color-light;
+}
+
 
