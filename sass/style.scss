@@ -5,6 +5,7 @@ $font-logo: 'Berkshire Swash', cursive;
 $color-logo: yellow;
 $color-light: #ffffff;
 $color-dark: black;
+$color-text: darkgrey
 
 
 /* Global */
@@ -18,7 +19,39 @@ body {
     font-size: 16px;
     line-height: 1.7;
     font-family: $font-text;
+    color: $color-text;
 }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    color: $color-dark;
+    font-size: 40px;
+    text-align: center;
+    font-family: $font-title;
+    font-weight: bold;
+    text-align: center
+}
+
+.section-subtitle {
+    color: $color-text;
+    font-family: $font-text;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}    
+
+.p {
+    font-size: 16px;
+    font-family:$font-text;
+    color: $color-text;
+    text-align: center;
+}   
+
 
 /* Navigation */
 
