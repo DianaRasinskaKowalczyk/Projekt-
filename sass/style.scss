@@ -68,28 +68,27 @@ body {
     width: 100%;
 }
 
-.navigation-logo-box {
-    display: inline-block;
-}  
+.navigation .row {
+    display: flex;
+}
 
 .navigation-logo {
     color: $color-logo;
     font-style: italic;
     font-size: 20 px;
     font-family: $font-logo;
-    text-align: center;
-    margin: auto;
+    text-decoration: none;
 }
 
-.navigation-list {
+.menu-list {
     list-style-type: none;
 }
 
-.navigation-list-item {
+.menu-list-item {
     display: inline-block;
 }
 
-.navigation-item {
+.menu-item {
     color: $color-light;
     text-decoration: none;
     font-size: 16px;
