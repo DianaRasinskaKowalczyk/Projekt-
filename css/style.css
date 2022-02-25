@@ -1,0 +1,18 @@
+/* Variables */
+/* Global */
+*, *::before, *::after { box-sizing: border-box; }
+
+body { margin: 0; font-size: 16px; line-height: 1.7; font-family: "Inconsolata", monospace; }
+
+/* Navigation */
+.navigation { position: fixed; width: 100%; background-color: gray; }
+
+.navigation-logo-box { display: inline-block; }
+
+.navigation-logo { color: yellow; font-style: italic; font-size: 20 px; font-family: "Berkshire Swash", cursive; text-align: center; margin: auto; }
+
+.navigation-list { list-style-type: none; }
+
+.navigation-list-item { display: inline-block; }
+
+.navigation-item { color: #ffffff; text-decoration: none; font-size: 16px; }
