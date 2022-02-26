@@ -5,14 +5,14 @@ $font-logo: 'Berkshire Swash', cursive;
 $color-logo: yellow;
 $color-light: #ffffff;
 $color-dark: black;
-$color-text: darkgrey
+$color-text: darkgrey;
 
 
 /* Global */
 
 *, *::before, *::after {
     box-sizing: border-box;
-}
+  }
 
 body {
     margin: 0;
@@ -55,7 +55,7 @@ body {
 /* Splash */
 
 .splash {
-    background-image: url('https://i.postimg.cc/wMGwSDxX/1.jpg');
+    background-image: url("https://i.postimg.cc/wMGwSDxX/1.jpg");
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -82,14 +82,12 @@ body {
 
 .menu-list {
     list-style-type: none;
+    display: flex;
+    justify-content:space-around;
 }
 
-.menu-list-item {
-    display: inline-block;
-}
-
-.menu-item {
-    color: $color-light;
+.menu-list-item a {
+    color: $color-dark;
     text-decoration: none;
     font-size: 16px;
 }   
