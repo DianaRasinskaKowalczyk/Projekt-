@@ -59,6 +59,7 @@ body {
     background-position: center center;
     background-size: cover;
     position: relative;
+    min-height: 500px;
 }   
 
 /* Navigation */
@@ -83,11 +84,13 @@ body {
 .menu-list {
     list-style-type: none;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    margin-left: 500px;
 }
 
 .menu-list-item a {
-    color: $color-dark;
+    color: $color-light;
     text-decoration: none;
     font-size: 16px;
+    padding: 0 20px;
 }   
