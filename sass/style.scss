@@ -58,8 +58,8 @@ body {
     background-image: url("https://i.postimg.cc/wMGwSDxX/1.jpg");
     background-position: center center;
     background-size: cover;
-    position: relative;
-    min-height: 500px;
+    min-height: 558px;
+    display: flex;
 }   
 
 /* Navigation */
@@ -76,21 +76,70 @@ body {
 .navigation-logo {
     color: $color-logo;
     font-style: italic;
-    font-size: 20 px;
+    font-size: 20px;
     font-family: $font-logo;
     text-decoration: none;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    padding-left: 180px;
 }
 
 .menu-list {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    margin-left: 500px;
+    margin-left: 240px;
 }
 
 .menu-list-item a {
     color: $color-light;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     padding: 0 20px;
+}   
+
+.splash-inner { 
+    margin: auto;
+    text-align: center;
+    padding-top: 56px;
+    max-width: 70%;
+}   
+
+.welcome {
+    color: $color-light;
+    font-size: 30px;
+    font-style: italic;
+    font-family: $font-text;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.main-heading {
+    color: $color-light;
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}  
+
+.btn {
+    display: inline-block;
+    min-width: 190px;
+    max-height: 50px;
+    margin: 0px auto 0px auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    color: $color-light;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: $color-logo;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $color-logo;
 }   
