@@ -234,3 +234,42 @@ body {
     font-style: italic;
     text-align: center;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    margin: 0 40px;
+}   
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 4px;
+}   
+
+.copyrights {
+    font-family: $color-text;
+    color: $color-dark;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 135px;
+}    
+
+.footer-list li {
+    margin-left: 5px;
+}  
+
+.footer-list i {   
+    font-size: 16px;
+    color: $color-light;
+    background-color: $color-dark;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+}
