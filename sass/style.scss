@@ -195,5 +195,14 @@ body {
         margin-top: 0px;
     }    
 
+/* Portfolio */
 
-    
+.row-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 33.333%;
+}
