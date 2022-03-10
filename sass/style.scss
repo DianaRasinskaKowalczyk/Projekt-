@@ -153,31 +153,27 @@ body {
 .row-services {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: 0 0 68px 0;
     justify-content: center;
     padding: 0px;
 }
 
-    .box-services {
-        flex: 0 0 25%;
-        flex-wrap: wrap;
+.box-services {
         margin-right: 10px;
         margin-left: 10px;
-        max-width: 25%;
         margin-top: 0px;
-    }
+}
 
-    .box-services icon {
+.box-services .icon {
         color: $color-logo;
         font-size: 30px;
         height: 60px;
         width: 60px;
-        padding: 15px;
         text-align: center;
-        margin: 25px;
+        margin: 25px auto;
         border: $color-logo solid 2px;
         border-radius: 50%;
-    }
+}
 
     .box-services h4 {
         color: $color-dark;
@@ -204,27 +200,38 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .card {
-    flex-basis: 33.333%;
+    max-width: 300px;
 }
 
 .card-image {
     overflow: hidden;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .card-image img {
     object-fit: cover;
+    max-width: 100%;
 }    
+
+.card-body {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
 
 .card-body h4 {
     color: $color-dark;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;   
-    padding-top: 0px;
+    padding-top: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .card-body p {
@@ -233,6 +240,10 @@ body {
     font-size: 14px;
     font-style: italic;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* Footer */
