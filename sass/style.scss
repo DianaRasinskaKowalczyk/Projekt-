@@ -179,6 +179,8 @@ body {
 
 .card {
     max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-image {
@@ -221,17 +223,11 @@ body {
 }
 
 /* Footer */
-
-.footer {
-    display: flex;
-    margin: 0 40px;
-}   
+  
 
 .footer-list {
-    display: flex;
     list-style: none;
-    margin-left: 40px;
-    margin-top: 4px;
+    display: flex;
 }   
 
 .copyrights {
@@ -239,12 +235,9 @@ body {
     color: $color-dark;
     font-weight: bold;
     font-size: 13px;
-    margin-left: 135px;
+    text-align: center;
 }    
-
-.footer-list li {
-    margin-left: 5px;
-}  
+ 
 
 .footer-list i {   
     font-size: 16px;
@@ -255,6 +248,22 @@ body {
     border-radius: 50%;
     line-height: 35px;
     text-align: center;
-    padding: 2px;
-    margin-top: 0px;
+    margin: 0px 2px;
+}
+
+/* Media */
+
+@media (max-width: 768px) {
+    .navigation-logo {
+        padding-left: 50%;
+    }
+
+    .menu-list {
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
 }
